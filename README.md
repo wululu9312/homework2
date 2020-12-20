@@ -14,4 +14,9 @@ calc > for i loop 1 10 add
 calc > i
 55
 ``` 
-
+for-loop運算: 輸入 for 變數 loop 起始值 終值 avg 執行連續加法平均運算
+```diff
+calc > for i loop 1 10 avg
+calc > i
+5.5
+```
