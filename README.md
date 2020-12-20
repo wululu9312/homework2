@@ -11,13 +11,29 @@
 for-loop運算: 輸入 for 變數 loop 起始值 終值 add 執行連續加法運算
 ```diff
 calc > for i loop 1 10 add
+LexToken(FOR,'for',1,0)
+LexToken(NAME,'i',1,4)
+LexToken(LOOP,'loop',1,6)
+LexToken(NUMBER,1,1,11)
+LexToken(NUMBER,10,1,13)
+LexToken(ADD,'add',1,16)
+
 calc > i
+LexToken(NAME,'i',1,0)
 55
 ``` 
 for-loop運算: 輸入 for 變數 loop 起始值 終值 avg 執行連續加法平均運算
 ```diff
 calc > for i loop 1 10 avg
+LexToken(FOR,'for',1,0)
+LexToken(NAME,'i',1,4)
+LexToken(LOOP,'loop',1,6)
+LexToken(NUMBER,1,1,11)
+LexToken(NUMBER,10,1,13)
+LexToken(AVG,'avg',1,16)
+
 calc > i
+LexToken(NAME,'i',1,0)
 5.5
 ```
 if-else運算: if 變數 符號(>,>=,==,<=,<) 變數=數值 else 變數=數值:
@@ -26,6 +42,7 @@ calc > i=10
 LexToken(NAME,'i',1,0)
 LexToken(EQUALS,'=',1,1)
 LexToken(NUMBER,10,1,2)
+
 calc > if i==10 k=5 else k=3:
 LexToken(IF,'if',1,0)
 LexToken(NAME,'i',1,3)
@@ -39,6 +56,7 @@ LexToken(NAME,'k',1,18)
 LexToken(EQUALS,'=',1,19)
 LexToken(NUMBER,3,1,20)
 LexToken(COLON,':',1,21)
+
 calc > k
 LexToken(NAME,'k',1,0)
 5
