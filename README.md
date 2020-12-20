@@ -37,7 +37,7 @@ calc > i
 LexToken(NAME,'i',1,0)
 5.5
 ```
-if-else運算: if 變數 符號(>,>=,==,<=,<) 變數=數值 else 變數=數值:
+if-else運算: if 變數 符號(>,>=,==,<=,<) 變數=數值 else 變數=數值 : 
 ```diff
 calc > i=10
 LexToken(NAME,'i',1,0)
@@ -62,6 +62,20 @@ calc > k
 LexToken(NAME,'k',1,0)
 5
 ```
+
+繪製passing tree，例:1+2+3+4
+```diff
+calc > 1+2+3+4
+LexToken(NUMBER,1,1,0)
+LexToken(PLUS,'+',1,1)
+LexToken(NUMBER,2,1,2)
+LexToken(PLUS,'+',1,3)
+LexToken(NUMBER,3,1,4)
+LexToken(PLUS,'+',1,5)
+LexToken(NUMBER,4,1,6)
+10
+```
+
 
 參考資料 : 
 ```diff
