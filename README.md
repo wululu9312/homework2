@@ -75,7 +75,7 @@ LexToken(PLUS,'+',1,5)
 LexToken(NUMBER,4,1,6)
 10
 ```
-![image](https://github.com/wululu9312/homework2.git/nx_test.png)
+![image](https://github.com/wululu9312/homework2/blob/main/nx_test.png)
 
 參考資料 : 
 ```diff
