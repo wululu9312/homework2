@@ -8,11 +8,10 @@
 
 根號運算：輸入num ** num 例：4 ** 2
 
-for-loop運算: 輸入 for 變數 loop 起始值 終值 sum 執行連續加法運算
-
-例:calc > for i loop 1 10 add
-
-   calc > i
-   
-   55
+for-loop運算: 輸入 for 變數 loop 起始值 終值 add 執行連續加法運算
+```diff
+calc > for i loop 1 10 add
+calc > i
+55
+``` 
 
