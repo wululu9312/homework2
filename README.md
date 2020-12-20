@@ -4,11 +4,12 @@
 
 
 #語法:
+
 冪次運算：輸入num^num  例：2^2
 
 根號運算：輸入num ** num 例：4 ** 2
 
-for-loop運算: 輸入 for 變數 loop 起始值 終值 add 執行連續加法運算
+for-loop運算: 輸入 for 變數 loop 起始值 終值 add ->執行連續加法運算
 ```diff
 calc > for i loop 1 10 add
 LexToken(FOR,'for',1,0)
@@ -22,7 +23,7 @@ calc > i
 LexToken(NAME,'i',1,0)
 55
 ``` 
-for-loop運算: 輸入 for 變數 loop 起始值 終值 avg 執行連續加法平均運算
+for-loop運算: 輸入 for 變數 loop 起始值 終值 avg ->執行連續加法平均運算
 ```diff
 calc > for i loop 1 10 avg
 LexToken(FOR,'for',1,0)
