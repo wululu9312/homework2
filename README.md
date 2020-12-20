@@ -22,5 +22,8 @@ calc > i
 ```
 
 
-參考資料 : https://www.dabeaz.com/ply/ply.html
-          https://stackoverflow.com/questions/47746590/python-ply-issue-with-if-else-and-while-statements
+參考資料 : 
+```diff
+1.https://www.dabeaz.com/ply/ply.html
+2.https://stackoverflow.com/questions/47746590/python-ply-issue-with-if-else-and-while-statements
+```
