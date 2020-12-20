@@ -20,3 +20,7 @@ calc > for i loop 1 10 avg
 calc > i
 5.5
 ```
+
+
+參考資料 : https://www.dabeaz.com/ply/ply.html
+          https://stackoverflow.com/questions/47746590/python-ply-issue-with-if-else-and-while-statements
