@@ -6,9 +6,21 @@
 #語法:
 
 冪次運算：輸入num^num  例：2^2
-
+```diff
+calc > 2^2
+LexToken(NUMBER,2,1,0)
+LexToken(POWER,'^',1,1)
+LexToken(NUMBER,2,1,2)
+4
+```
 根號運算：輸入num ** num 例：4 ** 2
-
+```diff
+calc > 4**2
+LexToken(NUMBER,4,1,0)
+LexToken(ROOT,'**',1,1)
+LexToken(NUMBER,2,1,3)
+2.0
+```
 for-loop運算: 輸入 for 變數 loop 起始值 終值 add ->執行連續加法運算
 ```diff
 calc > for i loop 1 10 add
